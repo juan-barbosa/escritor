@@ -16,8 +16,8 @@ body{
 }
 
 #espacio-trabajo{
-    height: 864px;
-    width: 486px;
+    height: 1080px;
+    width: 607.5px;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
