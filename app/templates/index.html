@@ -1,0 +1,28 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div id="espacio-trabajo">
+        <img id="logo" src="{{ url_for('static', filename='logo.png') }}" alt="logo">
+        <textarea name="Dias" id="dia" placeholder="Día..."></textarea>
+        <h1 id="hoy"></h1>
+        <div id="escribir">
+            <textarea name="entrada" id="registro" placeholder="..."></textarea>
+        </div>
+    </div>
+    <audio id="sound1" src="{{ url_for('static', filename='aud (1).mp3') }}"></audio>
+    <audio id="sound2" src="{{ url_for('static', filename='aud (2).mp3') }}"></audio>
+    <audio id="sound3" src="{{ url_for('static', filename='aud (3).mp3') }}"></audio>
+    <audio id="sound4" src="{{ url_for('static', filename='aud (4).mp3') }}"></audio>
+    <audio id="sound5" src="{{ url_for('static', filename='aud (5).mp3') }}"></audio>
+    <audio id="sound6" src="{{ url_for('static', filename='aud (6).mp3') }}"></audio>
+    <audio id="sound7" src="{{ url_for('static', filename='aud (7).mp3') }}"></audio>
+    <audio id="sound8" src="{{ url_for('static', filename='aud (8).mp3') }}"></audio>
+    <audio id="sound9" src="{{ url_for('static', filename='aud (9).mp3') }}"></audio>
+    <audio id="sound10" src="{{ url_for('static', filename='aud (10).mp3') }}"></audio>
+    <audio id="sound11" src="{{ url_for('static', filename='aud (11).mp3') }}"></audio>
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Monotype-Corsiva;
+    src: url('Monotype Corsiva.ttf');
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url('Quicksand-Regular.ttf');
+}
+
+body{
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    background-color: #5d5d5d;
+}
+
+#espacio-trabajo{
+    height: 864px;
+    width: 486px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo{
+    position: relative;
+    width: 25%;
+    height: auto;
+    margin: 5%;
+}
+
+#dia{
+    font-family: Monotype-Corsiva;
+    position: relative;
+    width: 100%;
+    height: 8%;
+    margin: 0.5%;
+    background-color: #5d5d5d00;
+    color: #D0A933;
+    font-size: 3rem;
+    border: 0;
+    outline: none;
+    padding: 0;
+    text-shadow: 2px 2px 0.5rem rgba(0, 0, 0, 0.668);
+}
+#dia::placeholder{
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+#dia{
+    resize: none;
+    text-align: center;
+    width: auto;
+}
+#hoy{
+    font-family: Monotype-Corsiva;
+    position: relative;
+    height: 8%;
+    margin: 0.5%;
+    font-size: 3rem;
+    color: #D0A933;
+    font-weight: lighter;
+    display: none;
+    text-shadow: 2px 2px 0.5rem rgba(0, 0, 0, 0.668);
+}
+
+#escribir{
+    position: relative;
+    width: 85%;
+    height: 50%;
+    background-color: #DDDDDD;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2rem solid #FFEAB5;
+}
+
+#registro{
+    font-family: Quicksand;
+    text-align: justify;
+    background-color: #5d5d5d00;
+    width: 95%;
+    height: 95%;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    border: 0;
+    outline: none;
+    padding: 0;
+}
+
+#registro::placeholder{
+    position: relative;
+}
+#registro{
+    resize: none;
+}
